@@ -3,4 +3,4 @@ project(AppliedCrypto C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(AppliedCrypto main.c)
+add_executable(AppliedCrypto xor.c)

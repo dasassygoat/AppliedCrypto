@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g CMakeFiles/AppliedCrypto.dir/xor.c.o -o AppliedCrypto 
