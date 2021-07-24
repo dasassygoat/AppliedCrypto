@@ -11,7 +11,7 @@ void main(int argc, char *argv[]) {
             while ((c = getc(fi)) != EOF) {
                 if (!*cp) cp = argv[1];
                 c ^= *(cp++);
-                putc(c, fo);
+                putc(c, fo); /* lookup putc */
             }
         }
         fclose(fi);
